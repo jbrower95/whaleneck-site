@@ -5,33 +5,68 @@
 </head>
 
 <body>
+	<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=329256580486845";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 	<div class="full_page" id="page_one">
-	<ul id="navbar">
-		<li class="navbar_item">
+	<ul class="navbar" id="header">
+		<!--<li class="navbar_item">
 		<a href="javascript:scrollTo(1)">Music</a>
-		</li>
+		</li> 
 		<li class="navbar_item">
 		<a href="javascript:scrollTo(1)">Dates</a>
-		</li>
+		</li> -->
 		<li class="navbar_item_plain">
 			<h1 id="band_name">WHALENECK</h1>
 		</li>
-		<li class="navbar_item">
+		<!--<li class="navbar_item">
 		<a href="javascript:scrollTo(2)">Merch</a>
 		</li>
 		</li>
 		<li class="navbar_item">
 		<a href="javascript:scrollTo(2)">Contact</a>
-		</li>
+		</li> -->
 	</ul>
+	<div class="fb-like" data-href="https://www.facebook.com/iamwhaleneck" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+
+		<iframe style="width: 350px; height: 621px; border: 1px solid black; margin: 10px;" src="https://bandcamp.com/EmbeddedPlayer/album=2209895431/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://whaleneck.bandcamp.com/album/watercolor">Watercolor by Whaleneck</a></iframe>
+		
+		<div id="show_dates_table"> 
+			<div class="show_date elapsed_show">
+				<p class="venue_name"><a href="https://www.facebook.com/events/397191523823914/">AMITYVILLE MUSIC HALL</a></p>
+				<p class="date">12.18.15</p>
+				<p class="location">Amityville, NY</p>
+			</div>
+			<div class="show_date elapsed_show">
+				<p class="venue_name"><a href="https://www.facebook.com/events/496202340559003/">KJ FARRELLS BAR AND GRILL</a></p>
+				<p class="date">01.05.16</p>
+				<p class="location">Bellmore, NY</p>
+			</div>
+			<div class="show_date">
+				<p class="venue_name">AS220 Main Stage</p>
+				<p class="date">02.25.16</p>
+				<p class="location">Providence, RI</p>
+			</div>
+			<div class="show_date">
+				<p class="venue_name"><a href="https://www.facebook.com/events/853172951477967/">SMES FEST</a></p>
+				<p class="date">06.11.16</p>
+				<p class="location">Wheatly Heights, NY</p>
+			</div>
+
+		</div>
 	
-		<img src="img/whale_gray.png" class="centered" id="whale_image"/>
 	</div>
 
-	<div class="full_page" id="page_two">
 	<!-- Show dates -->
-	<iframe style="border: 0; padding: 20px;width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2209895431/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://whaleneck.bandcamp.com/album/watercolor">Watercolor by Whaleneck</a></iframe>
+	<!-- <div class="full_page" id="page_two">
+	
+	<iframe style="border: 0; width: 100%; height: 120px; margin: auto; float: center;" src="https://bandcamp.com/EmbeddedPlayer/album=2209895431/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://whaleneck.bandcamp.com/album/watercolor">Watercolor by Whaleneck</a></iframe>
 
 	<div id="watercolor_info">
 		<ul class="tracklist">
@@ -52,14 +87,7 @@
 			</li>
 		</ul>
 	</div>
-
-	</div>
-
-	<div class="full_page" id="page_three">
-	<!-- Merch -->
-
-	</div>
-
+	-->
 
 
 <link href='https://fonts.googleapis.com/css?family=Lato:400,900|Montserrat:400,700' rel='stylesheet' type='text/css'>

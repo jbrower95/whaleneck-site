@@ -17,8 +17,8 @@ $(document).ready(function() {
 		$span.animate({left: leftPos, top: topPos});
 	};
 
-	moveDiv();
-	setInterval(moveDiv, 5000);
+	//moveDiv();
+	//setInterval(moveDiv, 5000);
 });	
 
 function scrollTo(page) {

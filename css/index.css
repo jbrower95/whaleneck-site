@@ -56,13 +56,24 @@ a:active {
 
 
 
-#navbar {
+.navbar {
 	list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
+}
+
+#header {
     background-color: #556270;
 }
+
+#footer {
+    border-top: 2px solid black;
+    height: 150px;
+    position: relative;
+    bottom: 100%;
+}
+
 
 .tracklist {
 	list-style-type: none;
@@ -98,13 +109,53 @@ a:active {
 }
 
 #whale_image {
-	position: absolute;
-	padding-top: 30px;
 	padding-left: 10px;
 	padding-right: 10px;
 	padding-bottom: 30px;
 	display: inline-block;
 }
+
+#show_dates {
+	border: 2px solid black;
+	display: block;
+}
+
+#show_dates_table {
+	display: inline;
+	float: right;
+	border: 1px solid black;
+	width: 350px; 
+	height: 621px;
+	margin: 10px;
+}
+
+.show_date {
+	padding: 20px;
+}
+
+.elapsed_show {
+	background-color: black;
+	opacity: .7;
+}
+
+.venue_name {
+	font-size: 20px;
+	color: #C44D58;
+}
+
+.date {
+	font-size: 15px;
+	color: #FF6B6B;
+}
+
+.location {
+	font-size: 15px;
+	color: #FF6B6B;
+	opacity: .5;
+}
+
+
+
 
 #band_name {
 	display: inline;
@@ -122,7 +173,6 @@ a:active {
 
 #page_one {
 	background-image: url("../img/cheap_diagonal_fabric/cheap_diagonal_fabric.png");
-	float: center;
 }
 
 #watercolor_info {
