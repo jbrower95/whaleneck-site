@@ -64,6 +64,22 @@ a:active {
     background-color: #556270;
 }
 
+.tracklist {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #556270;
+	opacity: .7;
+}
+
+.tracklist_item {
+	padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
 .navbar_item {
     display: inline-block;
     padding: 10px;
@@ -107,6 +123,14 @@ a:active {
 #page_one {
 	background-image: url("../img/cheap_diagonal_fabric/cheap_diagonal_fabric.png");
 	float: center;
+}
+
+#watercolor_info {
+	border: 2px solid black;
+	display: inline-block;
+	width: 350px; 
+	/*height: 468px;*/
+	margin: 20px;
 }
 
 

@@ -18,7 +18,7 @@ $(document).ready(function() {
 	};
 
 	moveDiv();
-	setInterval(moveDiv, 500);
+	setInterval(moveDiv, 5000);
 });	
 
 function scrollTo(page) {
