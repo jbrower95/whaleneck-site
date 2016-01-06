@@ -17,13 +17,13 @@ $(document).ready(function() {
 		$span.animate({left: leftPos, top: topPos});
 	};
 
-
-	$("#whale_image").click(function() {
-		
-	});
-
-
 	moveDiv();
 	setInterval(moveDiv, 500);
-
 });	
+
+function scrollTo(page) {
+	var pages = [$("#pageOne"), $("#pageTwo")];
+	$('html, body').animate({
+        scrollTop: pages[page].offset().top
+    }, 2000);
+}
