@@ -1,0 +1,81 @@
+* {
+	font-family: 'Roboto Mono';]
+	padding: 0px;
+	margin: 0;
+}
+
+/* rgb(28,87,99); */
+
+h1 {
+	font-weight: 100;
+	font-size: 70;
+	text-align: center;
+}
+
+.contactus {
+	position: absolute;
+	padding-top: 80%;
+	float: left;
+}
+
+#location_icon {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+
+h2 {
+	font-weight: 400;
+	font-size: 25;
+	text-align: center;
+	color: #000000;
+}
+
+#location_info {
+	display: inline-block;
+	color: white;
+}
+
+#headerimg {
+	width: 400px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+}
+
+#beardImg {
+	padding-top: 20px;
+	float: center;
+}
+
+#page_two {
+	background-color: #000000;
+}
+
+#page_one {
+	float: center;
+}
+
+video#bgvid {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(polina.jpg) no-repeat;
+background-size: cover;
+}
+
+.full_page {
+	height: 100%;
+}
+
+body {
+	float: center;
+}
