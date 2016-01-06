@@ -66,10 +66,20 @@ a:active {
 
 .navbar_item {
     display: inline-block;
-    padding: 30px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    border: 2px solid white;
+} 
+
+.navbar_item_plain {
+	display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: white;
 }
-
 
 #whale_image {
 	position: absolute;

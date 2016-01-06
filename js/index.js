@@ -22,7 +22,7 @@ $(document).ready(function() {
 });	
 
 function scrollTo(page) {
-	var pages = [$("#page_one"), $("#page_two")];
+	var pages = [$("#page_one"), $("#page_two"), $("#page_three")];
 	$('html, body').animate({
         scrollTop: pages[page].offset().top
     }, 2000);
