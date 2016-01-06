@@ -68,10 +68,13 @@ a:active {
 }
 
 #footer {
-    border-top: 2px solid black;
-    height: 150px;
-    position: relative;
-    bottom: 100%;
+    background-color: black;
+    opacity: .7;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 
