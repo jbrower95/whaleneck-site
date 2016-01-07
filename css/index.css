@@ -68,8 +68,7 @@ a:active {
 }
 
 #footer {
-    background-color: black;
-    opacity: .7;
+    background-color: rgba(0,0,0,.7);
     height: 80px;
     position: absolute;
     bottom: 0;
